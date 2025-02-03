@@ -75,6 +75,8 @@ spec:
             runAsUser: 1000
             runAsGroup: 1000
           args:
+            - --auth
+            - none
             - --user-data-dir
             - "/conf/.vscode"
             - --extensions-dir
